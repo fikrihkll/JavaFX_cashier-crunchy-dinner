@@ -1,1 +1,1 @@
-"# Cashier Crunchy Dinner [JAVAFX]" 
+# Cashier Crunchy Dinner [JAVAFX]
