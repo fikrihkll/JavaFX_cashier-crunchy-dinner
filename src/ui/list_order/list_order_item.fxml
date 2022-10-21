@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="210.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="tv_id" layoutX="38.0" layoutY="6.0" prefHeight="17.0" prefWidth="282.0" text="#ase3as3sa3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="tv_buyer" layoutX="14.0" layoutY="56.0" prefHeight="17.0" prefWidth="306.0" text="Jayoma" />
+      <Label layoutX="14.0" layoutY="85.0" text="Total : ">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font></Label>
+      <Label fx:id="tv_total" layoutX="54.0" layoutY="83.0" prefHeight="17.0" prefWidth="268.0" text="Label" />
+      <Label layoutX="14.0" layoutY="114.0" text="Cashier Information :">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font></Label>
+      <Label fx:id="tv_cashier" layoutX="14.0" layoutY="129.0" prefHeight="17.0" prefWidth="306.0" text="Dans" wrapText="true" />
+      <Label fx:id="tv_cashier_id" layoutX="14.0" layoutY="146.0" text="#askease98a3e">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="tv_date" layoutX="14.0" layoutY="183.0" prefHeight="17.0" prefWidth="141.0" text="2021 - 04 - 19 20:20" />
+      <Label layoutX="14.0" layoutY="6.0" text="ID :" />
+      <Label layoutX="14.0" layoutY="43.0" text="Customer Table:">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
