@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="655.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.list_order.ListOrderController">
+   <children>
+      <ListView fx:id="list_order" layoutX="23.0" layoutY="113.0" prefHeight="484.0" prefWidth="330.0" />
+      <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="1080.0">
+         <children>
+            <JFXTextField fx:id="et_search" labelFloat="true" prefHeight="25.0" prefWidth="266.0" promptText="Search cashier...">
+               <HBox.margin>
+                  <Insets left="24.0" />
+               </HBox.margin>
+            </JFXTextField>
+            <JFXButton fx:id="btn_search" text="Search">
+               <HBox.margin>
+                  <Insets left="16.0" />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+      </HBox>
+      <ListView fx:id="list_item" layoutX="507.0" layoutY="92.0" prefHeight="498.0" prefWidth="331.0" />
+      <Label layoutX="507.0" layoutY="65.0" text="Items :" />
+      <Label layoutX="23.0" layoutY="57.0" text="Orders" />
+      <JFXButton fx:id="btn_desc" layoutX="313.0" layoutY="87.0" text="Desc" />
+      <JFXButton fx:id="btn_load_more" layoutX="272.0" layoutY="609.0" text="Load More..." />
+      <JFXButton fx:id="btn_asc" layoutX="316.0" layoutY="53.0" text="Asc" />
+      <DatePicker fx:id="datepicker" layoutX="220.0" layoutY="53.0" prefHeight="25.0" prefWidth="82.0" />
+      <Label fx:id="tv_info_query" layoutX="23.0" layoutY="92.0" prefHeight="15.0" prefWidth="279.0" text="..." textFill="#757575">
+         <font>
+            <Font name="System Italic" size="10.0" />
+         </font>
+      </Label>
+      <JFXTimePicker fx:id="time_picker" layoutX="97.0" layoutY="53.0" prefHeight="25.0" prefWidth="115.0" />
+      <JFXButton fx:id="btn_clear" layoutX="250.0" layoutY="87.0" text="Clear" />
+   </children>
+</AnchorPane>

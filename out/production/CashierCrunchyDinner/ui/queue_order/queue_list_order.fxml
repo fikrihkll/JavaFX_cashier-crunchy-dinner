@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="520.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.queue_order.QueueOrderController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="1080.0" />
+      <ListView fx:id="list_item_queue" layoutX="497.0" layoutY="65.0" prefHeight="387.0" prefWidth="331.0" />
+      <Label layoutX="429.0" layoutY="65.0" text="Items   --&gt;" />
+      <ComboBox fx:id="cb_cashier" layoutX="862.0" layoutY="82.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label layoutX="862.0" layoutY="57.0" text="Cashier Name :" />
+      <ListView fx:id="list_order_queue" layoutX="33.0" layoutY="65.0" prefHeight="387.0" prefWidth="330.0" />
+      <JFXButton fx:id="btn_process" layoutX="256.0" layoutY="469.0" prefHeight="25.0" prefWidth="107.0" text="Process Order" />
+      <Label layoutX="862.0" layoutY="130.0" text="Table :" />
+      <ComboBox fx:id="cb_table" layoutX="862.0" layoutY="155.0" prefHeight="25.0" prefWidth="185.0" promptText="1" />
+   </children>
+</AnchorPane>
